@@ -213,8 +213,9 @@ a {
 }
 
 #streamview {
-  background-color: #ffffff;
-  text-align: center;
+  margin-left: auto;
+  marginright: auto;
+  width: 100%;
 }
 
 #newsimage {

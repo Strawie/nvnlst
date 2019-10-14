@@ -213,9 +213,11 @@ a {
 }
 
 #streamview {
-  margin-left: auto;
-  marginright: auto;
-  width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #newsimage {
@@ -239,8 +241,8 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;  
-    margin-top: 40px;
+    width: 100%;  
+    margin-top: 40px;  
 }
 
 #abouth1 {

@@ -17,7 +17,7 @@
     text-align: right;
     padding-right: 20px;
     font-size: 20px;
-    font-color:#222a32;
+    color:#222a32;
     max-width: 100%;
     padding-bottom: 5px;
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -50,6 +50,7 @@
     position: relative;
     width: 100%;
     font-family: 'Encode Sans Condensed', sans-serif;
+      width: 100%;
   }
 
   #footer {
@@ -118,15 +119,6 @@ a:hover {
      cursor:pointer;  
 }
 
-#LoL {
-  display: block;
-  width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  position: relative;
-}
-
 #fn {
   display: block;
   width: 750px;
@@ -138,21 +130,25 @@ a:hover {
 
 .about {
   text-align: center;
-  font: "Courier new";
   font-size: 25px;       
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 200px;
-  margin: auto;
   text-align: center;
   display: inline-block;
   margin-top: 100px;
-  padding: 30px;
+  padding: 20px;
   font-size: 14px;
-  font-color: #222a32
-  color: #ffffff;
+  color: #222a32;
+  background-color: #ffffff;
+}
+
+.fncard {
+  text-align: center;
+  padding: 50px;
+  padding-bottom: -50px;
 }
 
 .title {
@@ -181,10 +177,9 @@ a {
 }
 
 #frontpage {
-  display: block;
-  width: 100%;
-  align-content: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #bottomtext {
@@ -192,24 +187,18 @@ a {
   font-size: 20px;
 }
 
-.lolcard {
-  text-align: center;
-  padding: 50px;
-}
-
-.fncard {
-  text-align: center;
-  padding: 50px;
-  padding-bottom: -50px;
-}
-
-.fnbody {
-  margin-bottom: 250px;
-  padding-bottom: 200px;
+#fnbody {
+    overflow: auto;
+    padding-bottom: 200px;
+    background-image: url(fnbackground.png);
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+    font-family: 'Encode Sans Condensed', sans-serif;
 }
 
 .achievements {
-  text-align: center;
+    text-align: center;
 }
 
 #streamview {
@@ -221,20 +210,23 @@ a {
 }
 
 #newsimage {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 20px;
 }
 
 #frontpanels {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
-    margin-bottom: 50px;
     margin-top: 30px;
+    padding-top: 5px;
     text-align: center;
     font-size: 20px;
+    width: 100%;
+    color: #ffffff;
+    padding-bottom: 20px;
+    background-image: url(panelbackground.png);
 }
 
 #streams {
@@ -245,6 +237,8 @@ a {
     margin-top: 40px;  
 }
 
-#abouth1 {
-  text-align: center;
+#youtubethumb {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 }

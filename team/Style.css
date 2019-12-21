@@ -246,6 +246,7 @@ a {
 #streamerbody {
     overflow: auto;
     padding-bottom: 200px;
+    background-image: #ffffff;
     min-height: 100%;
     position: relative;
     width: 100%;
